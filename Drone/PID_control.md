@@ -31,3 +31,9 @@
 2번 제어값 = throttle + PID[roll] + PID[pitch] - PID[yaw]
 3번 제어값 = throttle - PID[roll] - PID[pitch] - PID[yaw]
 4번 제어값 = throttle + PID[roll] - PID[pitch] + PID[yaw]
+
+%%% 여기서 중요한건 x 자형 드론과 + 형 드론의 모터 제어 방법은 달라야한다는것...
+
+기본적인 코드는 다음과 같다
+
+>
