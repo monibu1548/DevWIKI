@@ -18,6 +18,20 @@
 MCU| 가장 큰 틀. Processor 와 Core 를 포함한다. SoC 라고 보면 될 듯. ARM프로세서에 GPIO, Memory-Controller 등이 더해진 것
 Processor| 코어를 갖는 것. 듀얼 코어. 쿼드 코어 프로세서라고 불리는게 이 이유.
 Core| 레지스터 뱅크 존재. Read, Write, Store 등 실제 연산을 처리하는 부분
+Register | 플립플롭의 집합체. 비트단위로 정보를 빠르게 저장 또는 수정할 수 있다.
+SRAM | 비싸지만 빠르다
+DRAM | 캐패시터가 필요.  fresh 필요.
+MASK ROM | 제조사에서 미리 저장시켜두는 메모리
+플래시메모리 | 전원이 끊겨도 저장된 정보가 지워지지 않는다. 휴대용 장치에서 주로 사용
+
+## AVR 일반적 특징
+1. 유사 RISC 구조
+2. Harvard Architecture
+3. 저전력
+4. 큰 잡음 여유와 입력 임피던스
+5. 고집적도
+6. 빠른속도
+
 
 
 ## MCU | MPU vs CPU
